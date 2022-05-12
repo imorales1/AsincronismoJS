@@ -4,7 +4,8 @@
   "description": "Trabajar con asincronismo en JS",
   "main": "src/Index.js",
   "scripts": {
-    "callback": "node src/callback/Index.js"
+    "callback": "node src/callback/Index.js",
+    "callback:challenge": "node src/callback/challenge.js"
   },
   "keywords": [
     "callbacks",
@@ -12,5 +13,8 @@
     "async"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
